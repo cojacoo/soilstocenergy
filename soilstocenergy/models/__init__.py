@@ -7,4 +7,16 @@ This module provides different model implementations:
 - Particle tracking for tracer and solute transport
 """
 
-__all__ = []
+from soilstocenergy.models.vertical_1d import (
+    SoilColumn1D,
+    SoilLayer,
+    create_uniform_column,
+    create_layered_column,
+)
+
+__all__ = [
+    "SoilColumn1D",
+    "SoilLayer",
+    "create_uniform_column",
+    "create_layered_column",
+]

@@ -79,10 +79,10 @@ soilstocenergy/
 This package is under active development. Current implementation status:
 
 - [x] Phase 1: Project structure (Completed)
-- [x] Phase 2: Thermodynamic core (In progress)
-- [x] Phase 3: Connectivity framework (In progress)
-- [ ] Phase 4: Percolation network
-- [ ] Phase 5: 1D vertical model
+- [x] Phase 2: Thermodynamic core (Completed)
+- [x] Phase 3: Connectivity framework (Completed)
+- [x] Phase 4: Percolation network (Completed)
+- [x] Phase 5: 1D vertical model (Completed)
 - [ ] Phase 6: Hysteresis mechanisms
 - [ ] Phase 7: Particle tracking
 - [ ] Phase 8: 2D/3D hillslope extension

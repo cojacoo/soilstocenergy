@@ -18,6 +18,12 @@ from soilstocenergy.core.thermodynamics import (
 from soilstocenergy.core.connectivity import (
     ConnectivityCalculator,
     ConnectivityState,
+    HysteresisConnectivity,
+)
+from soilstocenergy.core.percolation import (
+    PercolationNetwork,
+    UnionFind,
+    ScalingLaws,
 )
 
 __all__ = [
@@ -27,4 +33,8 @@ __all__ = [
     "BrooksCorey",
     "ConnectivityCalculator",
     "ConnectivityState",
+    "HysteresisConnectivity",
+    "PercolationNetwork",
+    "UnionFind",
+    "ScalingLaws",
 ]
