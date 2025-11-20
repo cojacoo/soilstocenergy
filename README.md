@@ -83,11 +83,11 @@ This package is under active development. Current implementation status:
 - [x] Phase 3: Connectivity framework (Completed)
 - [x] Phase 4: Percolation network (Completed)
 - [x] Phase 5: 1D vertical model (Completed)
-- [ ] Phase 6: Hysteresis mechanisms
-- [ ] Phase 7: Particle tracking
-- [ ] Phase 8: 2D/3D hillslope extension
-- [ ] Phase 9: Stochastic ensemble framework
-- [ ] Phase 10: Testing and validation
+- [x] Phase 6: Water balance utilities (Completed)
+- [x] Phase 7: Particle tracking (Completed)
+- [x] Phase 8: 2D hillslope model (Completed)
+- [x] Phase 9: Ensemble framework (Completed)
+- [x] Phase 10: Validation suite (Completed)
 
 ## Related Work
 

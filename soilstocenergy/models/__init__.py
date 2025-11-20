@@ -13,10 +13,24 @@ from soilstocenergy.models.vertical_1d import (
     create_uniform_column,
     create_layered_column,
 )
+from soilstocenergy.models.particles import (
+    Particle,
+    ParticleTracker,
+)
+from soilstocenergy.models.hillslope_2d import (
+    Hillslope2D,
+    HillslopeGrid,
+    create_synthetic_hillslope,
+)
 
 __all__ = [
     "SoilColumn1D",
     "SoilLayer",
     "create_uniform_column",
     "create_layered_column",
+    "Particle",
+    "ParticleTracker",
+    "Hillslope2D",
+    "HillslopeGrid",
+    "create_synthetic_hillslope",
 ]
